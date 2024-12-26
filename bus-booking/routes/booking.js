@@ -11,3 +11,4 @@ router.put('/api/bookings/:id/status', tokensecure, BR.updateBookingStatus);
 router.delete('/api/bookings/:id', tokensecure, BR.deleteBooking);
 
 module.exports = router;
+                                            
